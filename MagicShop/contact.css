@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+}
+header {
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(35, 120, 248);
+}
+nav {
+    display: block;
+} 
+div {
+    display: block;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.header img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin: 0;
+}
+.header h1 {
+    color: #fff;
+    display: inline-block;
+    margin: 20px 0;
+}
+.header input {
+    width: 45%;
+    margin-left: 135px;
+    padding: 15px;
+    border: none;
+    border-radius: 50px;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.contact {
+    width: 32%;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px;
+    box-sizing: border-box;
+}
+.contact .address {
+    width: 25%;
+    margin: 10px auto;
+    border-radius: 100%;
+    margin-left: -1px;
+}
+.contact.address img {
+    width: 60%;
+    margin: 12px auto;
+    border-radius: 100%;
+}
+.contact h3 {
+    margin: 10px;
+    color: #333;
+    font-family: sans-serif;
+}
+section {
+    display: block;
+}
+form {
+    display: block;
+}
+.message_location {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.message {
+    width: 50%;
+    box-sizing: border-box;
+
+}
+.message form input {
+    width: 48%;
+    margin: 5px 5px 5px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 1px 1px;
+}
+.message form textarea {
+    width: 98%;
+    height: 140px;
+    margin: 5px 5px 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px 1px;
+    border-radius: 5px;
+    resize: none;
+}
+.message form button {
+    padding: 10px;
+    border: 1px solid rgb(35, 120, 248);
+    border-radius: 5px;
+    background-color: rgb(35, 120, 248);
+    color: white;
+}
+.location {
+    width: 50%;
+}
+.location img {
+    width: 100%;
+}
+.newsletters {
+    background-color: rgb(35, 120, 248);
+    width: 100%;
+    height: 100px;
+    margin: 0;
+}
+.newsletter {
+    display: flex;
+    justify-content: space-between;
+}
+.newlet {
+    width: 30%;
+    padding: 20px 0;
+
+}
+.newlet h2 {
+    font-size: 32px;
+    color: white;
+}
+.newlet p {
+    color: white;
+    margin-left: 0
+}
+.newlet .enter {
+    display: block;
+    padding: 10px 140px 10px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    color: #555;
+    margin-left: 900px;
+    margin-top: -100px;
+
+    
+}
+.newlet button {
+    display: block;
+    padding: 7px 15px;
+    background-color: white;
+    color:#000;
+    border: 1px solid #fff;
+    margin-left: 1120px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+.footer {
+    background-color: #444;
+    display: block;
+    width: 100%;
+    height: 70px;
+    margin-top: 0px;
+    padding: 15px ;
+}
+.footer img:nth-child(1) {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 30px;
+
+}
+.footer h2 {
+    color: #fff;
+    display: inline-block;
+    margin: 20px 40px 25px 0;
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.footer ul {
+    display: inline-block;
+    margin-left: 95px;
+}
+.footer ul li {
+    display: inline-block;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 10px;
+
+}
+.footer a:hover {
+    color: rgb(0, 213, 255);
+}
+.footer_list p {
+    display: inline-block;
+    font-size: 18.72px;
+    color: #555;
+    width: 80%;
+    margin: 20px 40px ;
+    margin-top: 40px;
+}
+.footer_list span {
+    color: rgb(35, 120, 248);
+    font-family: sans-serif;
+    font-size: 18.72px;
+}
+.containerwe {
+    text-align: left;
+}
+.containerwe img {
+    float: right;
+    margin-top: -50px;
+    margin-right: 300px;
+}
